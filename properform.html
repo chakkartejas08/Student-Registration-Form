@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <center>
+        <h1>Student Registration Form</h1>
+        <p>Please fill out the form below.</p>
+    </center>
+
+    <hr>
+
+    <form>
+
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter password" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter email">
+            <br><br>
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" placeholder="Enter mobile number">
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob">
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Gender</b></legend>
+
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender">
+            <label for="other">Other</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Subjects</b></legend>
+
+            <input type="checkbox" id="python">
+            <label for="python">Python</label>
+
+            <input type="checkbox" id="java">
+            <label for="java">Java</label>
+
+            <input type="checkbox" id="ai" checked>
+            <label for="ai">Artificial Intelligence</label>
+
+            <input type="checkbox" id="web">
+            <label for="web">Web Development</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Course Selection</b></legend>
+
+            <label for="course">Choose Course:</label>
+
+            <select id="course">
+                <option>Select Course</option>
+                <option>Python Programming</option>
+                <option>Java Programming</option>
+                <option>Artificial Intelligence</option>
+                <option>Web Development</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Feedback</b></legend>
+
+            <textarea rows="5" cols="40"
+                placeholder="Enter your feedback here..."></textarea>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Reset Form">
+
+    </form>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Student Registration Form</p>
+    </footer>
+
+</body>
+</html>
