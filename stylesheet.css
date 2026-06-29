@@ -1,0 +1,78 @@
+.para{
+    font-size: 25px;
+    color: rgb(91, 80, 66);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+div{
+    margin: 20px;
+    padding: 20;
+    border: 0px solid rgb(121, 118, 112);
+
+}
+
+.card{
+    border: 2px solid rgb(140, 133, 121);
+    padding: 50;
+    text-align: center;
+
+}
+
+.container{
+    border: 2px;
+    padding: 10;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    background-color: rgb(44, 219, 155);
+    padding: 10px;
+}
+
+.bar a{
+    color: blue;
+}
+
+.card img{
+    width: 120px;
+    height: 120px;
+    float: right;
+}
+
+.box{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(15, 226, 226);
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px grey;
+    /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; */
+}
+
+.box:hover{
+    background: red;
+    box-shadow: 10px 10px 15px rgb(5, 171, 237);
+} 
+
+img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+img:hover{
+    border: 5px red;
+    box-shadow: 10px 10px 15px red;
+    border-radius: 20px;
+}

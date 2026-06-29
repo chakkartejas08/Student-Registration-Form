@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Registration Form</title>
 </head>
-<body>
+<body style="background-color: aliceblue;">
 
     <center>
 
         <h1 style="color: red;">Student Registration Form</h1>
-        <p>Please fill out the form below.</p>
+        <p style="color: gray;">Please fill out the form below.</p>
     </center>
 
 
@@ -19,25 +19,25 @@
     <form action="Welcome.html" method="get">
 
         <fieldset>
-            <legend><b>Personal Information</b></legend>
+            <legend style="color: darkblue;"><b>Personal Information</b></legend>
 
-            <label for="name">Full Name:</label>
+            <label for="name" class="block" style="color: dimgray;">Full Name:</label>
             <input type="text" id="name" placeholder="Enter your name" required>
             <br><br>
 
-            <label for="password">Password:</label>
+            <label for="password" class="block" style="color: dimgray;">Password:</label>
             <input type="password" id="password" placeholder="Enter password" required>
             <br><br>
 
-            <label for="email">Email:</label>
+            <label for="email" class="block" style="color: dimgray;">Email:</label>
             <input type="email" id="email" placeholder="Enter email">
             <br><br>
 
-            <label for="mobile">Mobile Number:</label>
+            <label for="mobile" class="block" style="color: dimgray;">Mobile Number:</label>
             <input type="tel" id="mobile" placeholder="Enter mobile number">
             <br><br>
 
-            <label for="dob">Date of Birth:</label>
+            <label for="dob" class="block" style="color: dimgray;">Date of Birth:</label>
             <input type="date" id="dob">
             <br><br>
 
@@ -46,42 +46,42 @@
         <br>
 
         <fieldset>
-            <legend><b>Gender</b></legend>
+            <legend style="color: darkblue;"><b>Gender</b></legend>
 
             <input type="radio" id="male" name="gender">
-            <label for="male">Male</label>
+            <label for="male" class="inline" style="color: dimgray;">Male</label>
 
             <input type="radio" id="female" name="gender">
-            <label for="female">Female</label>
+            <label for="female" class="inline" style="color: dimgray;">Female</label>
 
             <input type="radio" id="other" name="gender">
-            <label for="other">Other</label>
+            <label for="other" class="inline" style="color: dimgray;">Other</label>
         </fieldset>
 
         <br>
 
         <fieldset>
-            <legend><b>Subjects</b></legend>
+            <legend style="color: darkblue;"><b>Subjects</b></legend>
 
             <input type="checkbox" id="python">
-            <label for="python">Python</label>
+            <label for="python" class="inline" style="color: dimgray;"">Python</label>
 
             <input type="checkbox" id="java">
-            <label for="java">Java</label>
+            <label for="java" class="inline" style="color: dimgray;">Java</label>
 
             <input type="checkbox" id="ai" checked>
-            <label for="ai">Artificial Intelligence</label>
+            <label for="ai" class="inline" style="color: dimgray;">Artificial Intelligence</label>
 
             <input type="checkbox" id="web">
-            <label for="web">Web Development</label>
+            <label for="web" class="inline" style="color: dimgray;">Web Development</label>
         </fieldset>
 
         <br>
 
         <fieldset>
-            <legend><b>Course Selection</b></legend>
+            <legend style="color: darkblue;"><b>Course Selection</b></legend>
 
-            <label for="course">Choose Course:</label>
+            <label for="course" style="color: dimgray;">Choose Course:</label>
 
             <select id="course">
                 <option>Select Course</option>
@@ -95,7 +95,7 @@
         <br>
 
         <fieldset>
-            <legend><b>Feedback</b></legend>
+            <legend style="color: darkblue;"><b>Feedback</b></legend>
 
             <textarea rows="5" cols="40"
                 placeholder="Enter your feedback here..."></textarea>
@@ -103,12 +103,12 @@
 
         <br>
         <fieldset>
-            <legend><b>Table</b></legend>
+            <legend style="color: darkblue;"><b>Table</b></legend>
             <table border="3"> 
                <tr>
-                  <th>Name</th>
-                  <th>Class</th>
-                  <th>Course</th>
+                  <th style="color: white; background-color: blue;" >Name</th>
+                  <th style="color: white; background-color: blue;">Class</th>
+                  <th style="color: white; background-color: blue;">Course</th>
                </tr>
                <tr>
                   <td>Tejas</td>
@@ -130,8 +130,8 @@
 
         
 
-        <input type="submit" value="Submit Form">
-        <input type="reset" value="Reset Form">
+        <input type="submit" style="color: white; background-color: green; value="Submit Form">
+        <input type="reset" style="color: White; background-color: red" value="Reset Form">
 
         
     </form>
